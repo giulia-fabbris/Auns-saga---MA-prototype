@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Áns Saga Bogsveigis: a scholarly digital edition</title>
+            <author>Anonymous</author>
+            <respStmt>
+               <resp>Digital edition by</resp>
+               <name>Giulia Fabbris</name>
+            </respStmt>
+            <respStmt xml:id="GF">
+               <resp>Text encoded by</resp>
+               <name>Giulia Fabbris</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Encoding practice for internship and master degree thesis</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Reykjavík</settlement>
+                  <repository xml:lang="is">Handritasvið, Stofnun Árna Magnússonar í íslenskum fræðum</repository>
+                  <collection xml:lang="is">Safn Árna Magnússonar</collection>
+                  <idno>AM 343a 4to</idno>
+               </msIdentifier>
+               
+               <msContents>
+                  <msItem><colophon><origDate>The manuscript is dated 1450-1475</origDate></colophon></msItem>
+                  <msItem n="1">
+                     <colophon>Þorsteins þáttur bæjarmagns
+                        <locus>fols. 1r-5v</locus>
+                     </colophon>
+                  </msItem>
+                  <msItem n="2">
+                     <colophon>Samsons saga fagra
+                        <locus>fols. 5v-14r</locus>
+                     </colophon>
+                  </msItem>
+                  <msItem n="3">
+                     <colophon>Egils saga einhenda og Ásmundar berserkjabana
+                        <locus>fols. 14r-21v</locus>
+                     </colophon>
+                  </msItem>
+                  <msItem n="4">
+                     <colophon>Flóres saga konungs og sona hans
+                        <locus>fols. 21v-30v</locus>
+                     </colophon>
+                  </msItem>
+                  <msItem n="5">
+                     <colophon>Vilhjálms saga sjóðs
+                        <locus>fols. 30v-48v</locus>
+                     </colophon>
+                  </msItem>
+                  <msItem n="6">
+                     <colophon>Yngvars saga víðförla
+                        <locus>fols. 48v-54r</locus>
+                     </colophon>
+                  </msItem>
+                  <msItem n="7">
+                     <colophon>Ketils saga hængs
+                        <locus>fols. 54r-57v</locus>
+                     </colophon>
+                  </msItem>
+                  <msItem n="8">
+                     <colophon>Gríms saga loðinkinna
+                        <locus>fols. 57v-59v</locus>
+                     </colophon>
+                  </msItem>
+                  <msItem n="9">
+                     <colophon>Örvar-Odds saga
+                        <locus>fols. 59v-81v</locus>
+                     </colophon>
+                  </msItem>
+                  <msItem n="10">
+                     <colophon>Áns saga bogsveigis
+                        <locus>fols. 81v-87r</locus>
+                     </colophon>
+                  </msItem>
+                  <msItem n="11">
+                     <colophon>Sálus saga og Nikanórs
+                        <locus>fols. 87r-98v</locus>
+                     </colophon>
+                  </msItem>
+                  <msItem n="12">
+                     <colophon>Hálfdanar saga Eysteinssonar
+                        <locus>fols. 99r-103v</locus>
+                     </colophon>
+                  </msItem>
+                  <msItem n="13">
+                     <colophon>Bósa saga
+                        <locus>fols. 103v-104v</locus>
+                     </colophon>
+                  </msItem>
+                  <msItem n="14">
+                     <colophon>Vilmundar saga viðutan
+                        <locus>105r-108r</locus>
+                     </colophon>
+                  </msItem>
+                  <msItem n="15">
+                     <colophon>Perus saga meistara
+                        <locus>fols. 108r-110r</locus>
+                     </colophon>
+                  </msItem>
+               </msContents>
+               
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>Parchment</support>
+                        <extent>i + 110 + i
+                           <dimensions unit="mm">
+                              <height>height 210-230mm</height>
+                              <width>width 120-155mm</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc><p>Folio 82r is the only one reporting the title "Áns saga" on the upper margin. Folio 83v shows a leaf on the lower margin and a letter y on the upper left margin. Folios 84v reports some writings on the upper margin and the drawing of a creature with a human face and dragon-like body on the lower margin. Folio 85r reports on the lower margin the incomplete drawing of a human face and a sketch of the body, plus a leaf. In folio 85v there are some writings on the lower margin.</p></layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p>The author/s is/are unknown.</p>
+                     <p>The text is written in Old Icelandic</p>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+            <listPerson>
+               <person xml:id="Án">
+                  <persName>
+                     <forename>An</forename>
+                     <addName>Bogsveigis</addName>
+                  </persName>
+               </person>
+               <person xml:id="Þórir">
+                  <persName>
+                     <forename>Thórir</forename>
+                     <addName>þegn</addName>
+                     <state><p>Án's brother</p></state>
+                  </persName>
+               </person>
+               <person xml:id="Ketill">
+                  <persName>
+                     <forename>Ketill</forename>
+                     <state><p>King's retainer</p></state>
+                  </persName>
+               </person>
+               <person xml:id="Drífa">
+                  <persName>
+                     <forename>Drífa</forename>
+                     <state><p>Farmer's daughter, mother of Án's son</p></state>
+                  </persName>
+               </person>
+               <person xml:id="Ingjaldr">
+                  <persName>
+                     <forename>Ingjaldr</forename>
+                     <addName>inn illi</addName>
+                     <state><p>King</p></state>
+                  </persName>
+               </person>
+            </listPerson>
+            
+            <listWit>
+               <witness xml:id="A">AM 345 4to</witness>
+               <witness xml:id="L">Lbs 4547 8vo</witness>
+               <witness xml:id="F">Fornaldar Sögur Nordrlanda</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc><p>The aim of this project is to offer an electronic source for the study of the copious origeviations that characterize the medieval Old-Norse literary tradition in general, and to create an image-based electronic proposal of Áns saga that could be developed in a much more detailed edition.</p></projectDesc>
+      </encodingDesc>
+   </teiHeader>
+   
+   <facsimile xml:id="AM_facs">
+      <surface xml:id="AM_surf_84r" corresp="#AM_fol_84r">
+         <graphic url="AM_fol_84r.jpg" width="2095px" height="3088px"/>
+         <zone corresp="#AM_lb_84r_01" rend="visible" rendition="Line" ulx="153" uly="214" lrx="1786" lry="332" xml:id="AM_line_84r_01"/>
+         <zone corresp="#AM_lb_84r_02" rend="visible" rendition="Line" ulx="151" uly="283" lrx="1815" lry="382" xml:id="AM_line_84r_02"/>
+         <zone corresp="#AM_lb_84r_03" rend="visible" rendition="Line" ulx="153" uly="335" lrx="1800" lry="445" xml:id="AM_line_84r_03"/>
+         <zone corresp="#AM_lb_84r_04" rend="visible" rendition="Line" ulx="154" uly="404" lrx="1807" lry="496" xml:id="AM_line_84r_04"/>
+         <zone corresp="#AM_lb_84r_05" rend="visible" rendition="Line" ulx="147" uly="455" lrx="1819" lry="548" xml:id="AM_line_84r_05"/>
+         <zone corresp="#AM_lb_84r_06" rend="visible" rendition="Line" ulx="142" uly="514" lrx="1819" lry="605" xml:id="AM_line_84r_06"/>
+         <zone corresp="#AM_lb_84r_07" rend="visible" rendition="Line" ulx="135" uly="575" lrx="1827" lry="658" xml:id="AM_line_84r_07"/>
+         <zone corresp="#AM_lb_84r_08" rend="visible" rendition="Line" ulx="127" uly="632" lrx="1842" lry="724" xml:id="AM_line_84r_08"/>
+         <zone corresp="#AM_lb_84r_09" rend="visible" rendition="Line" ulx="82" uly="691" lrx="1828" lry="772" xml:id="AM_line_84r_09"/>
+         <zone corresp="#AM_lb_84r_10" rend="visible" rendition="Line" ulx="129" uly="755" lrx="1818" lry="827" xml:id="AM_line_84r_10"/>
+         <zone corresp="#AM_lb_84r_11" rend="visible" rendition="Line" ulx="142" uly="821" lrx="1849" lry="887" xml:id="AM_line_84r_11"/>
+         <zone corresp="#AM_lb_84r_12" rend="visible" rendition="Line" ulx="139" uly="874" lrx="1822" lry="938" xml:id="AM_line_84r_12"/>
+         <zone corresp="#AM_lb_84r_13" rend="visible" rendition="Line" ulx="130" uly="935" lrx="1816" lry="991" xml:id="AM_line_84r_13"/>
+         <zone corresp="#AM_lb_84r_14" rend="visible" rendition="Line" ulx="127" uly="1001" lrx="1734" lry="1051" xml:id="AM_line_84r_14"/>
+         <zone corresp="#AM_lb_84r_15" rend="visible" rendition="Line" ulx="126" uly="1054" lrx="1701" lry="1124" xml:id="AM_line_84r_15"/>
+         <zone corresp="#AM_lb_84r_16" rend="visible" rendition="Line" ulx="100" uly="1114" lrx="1735" lry="1174" xml:id="AM_line_84r_16"/>
+         <zone corresp="#AM_lb_84r_17" rend="visible" rendition="Line" ulx="127" uly="1174" lrx="1768" lry="1237" xml:id="AM_line_84r_17"/>
+         <zone corresp="#AM_lb_84r_18" rend="visible" rendition="Line" ulx="120" uly="1229" lrx="1842" lry="1289" xml:id="AM_line_84r_18"/>
+         <zone corresp="#AM_lb_84r_19" rend="visible" rendition="Line" ulx="127" uly="1286" lrx="1864" lry="1349" xml:id="AM_line_84r_19"/>
+         <zone corresp="#AM_lb_84r_20" rend="visible" rendition="Line" ulx="54" uly="1345" lrx="1792" lry="1411" xml:id="AM_line_84r_20"/>
+         <zone corresp="#AM_lb_84r_21" rend="visible" rendition="Line" ulx="124" uly="1417" lrx="1866" lry="1463" xml:id="AM_line_84r_21"/>
+         <zone corresp="#AM_lb_84r_22" rend="visible" rendition="Line" ulx="120" uly="1465" lrx="1855" lry="1523" xml:id="AM_line_84r_22"/>
+         <zone corresp="#AM_lb_84r_23" rend="visible" rendition="Line" ulx="114" uly="1532" lrx="1822" lry="1577" xml:id="AM_line_84r_23"/>
+         <zone corresp="#AM_lb_84r_24" rend="visible" rendition="Line" ulx="114" uly="1579" lrx="1825" lry="1639" xml:id="AM_line_84r_24"/>
+         <zone corresp="#AM_lb_84r_25" rend="visible" rendition="Line" ulx="115" uly="1643" lrx="1603" lry="1694" xml:id="AM_line_84r_25"/>
+         <zone corresp="#AM_lb_84r_26" rend="visible" rendition="Line" ulx="118" uly="1709" lrx="1860" lry="1769" xml:id="AM_line_84r_26"/>
+         <zone corresp="#AM_lb_84r_27" rend="visible" rendition="Line" ulx="133" uly="1774" lrx="1876" lry="1817" xml:id="AM_line_84r_27"/>
+         <zone corresp="#AM_lb_84r_28" rend="visible" rendition="Line" ulx="105" uly="1829" lrx="1864" lry="1879" xml:id="AM_line_84r_28"/>
+         <zone corresp="#AM_lb_84r_29" rend="visible" rendition="Line" ulx="99" uly="1892" lrx="1839" lry="1937" xml:id="AM_line_84r_29"/>
+         <zone corresp="#AM_lb_84r_30" rend="visible" rendition="Line" ulx="94" uly="1954" lrx="1848" lry="2002" xml:id="AM_line_84r_30"/>
+         <zone corresp="#AM_lb_84r_31" rend="visible" rendition="Line" ulx="103" uly="2006" lrx="1837" lry="2066" xml:id="AM_line_84r_31"/>
+         <zone corresp="#AM_lb_84r_32" rend="visible" rendition="Line" ulx="91" uly="2054" lrx="1822" lry="2128" xml:id="AM_line_84r_32"/>
+         <zone corresp="#AM_lb_84r_33" rend="visible" rendition="Line" ulx="57" uly="2126" lrx="1828" lry="2183" xml:id="AM_line_84r_33"/>
+         <zone corresp="#AM_lb_84r_34" rend="visible" rendition="Line" ulx="99" uly="2188" lrx="1830" lry="2249" xml:id="AM_line_84r_34"/>
+         <zone corresp="#AM_lb_84r_35" rend="visible" rendition="Line" ulx="109" uly="2239" lrx="1798" lry="2309" xml:id="AM_line_84r_35"/>
+         <zone corresp="#AM_lb_84r_36" rend="visible" rendition="Line" ulx="105" uly="2305" lrx="1795" lry="2366" xml:id="AM_line_84r_36"/>
+         <zone corresp="#AM_lb_84r_37" rend="visible" rendition="Line" ulx="111" uly="2368" lrx="1812" lry="2426" xml:id="AM_line_84r_37"/>
+         <zone corresp="#AM_lb_84r_38" rend="visible" rendition="Line" ulx="112" uly="2423" lrx="1812" lry="2488" xml:id="AM_line_84r_38"/>
+         <zone corresp="#AM_lb_84r_39" rend="visible" rendition="Line" ulx="115" uly="2480" lrx="1858" lry="2557" xml:id="AM_line_84r_39"/>
+         <zone corresp="#AM_lb_84r_40" rend="visible" rendition="Line" ulx="46" uly="2542" lrx="1831" lry="2611" xml:id="AM_line_84r_40"/>
+         <zone corresp="#AM_lb_84r_41" rend="visible" rendition="Line" ulx="111" uly="2597" lrx="1816" lry="2672" xml:id="AM_line_84r_41"/>
+         <zone corresp="#AM_lb_84r_42" rend="visible" rendition="Line" ulx="109" uly="2671" lrx="1840" lry="2729" xml:id="AM_line_84r_42"/>
+         <zone corresp="#AM_lb_84r_43" rend="visible" rendition="Line" ulx="121" uly="2731" lrx="1821" lry="2794" xml:id="AM_line_84r_43"/>
+         <zone corresp="#AM_lb_84r_44" rend="visible" rendition="Line" ulx="120" uly="2780" lrx="1828" lry="2849" xml:id="AM_line_84r_44"/>
+         <zone corresp="#AM_lb_84r_45" rend="visible" rendition="Line" ulx="99" uly="2825" lrx="1852" lry="2944" xml:id="AM_line_84r_45"/>
+      </surface>
+   </facsimile>
+   <text xml:id="AM" n="Áns Saga Bogsveigis">
+      <body>
+         <pb xml:id="AM_fol_84r" corresp="#AM_surf_84r" n="84r"/>
+         <fw place="top-right" type="fol">84</fw>
+         <l><lb n="1" facs="#AM_line_84r_01" xml:id="AM_lb_84r_01"/>nu heyrt hafa <choice><orig>get&#x36D;</orig><reg>getit</reg></choice> af <choice><orig>skotn&#x16B;</orig><reg>skotnum</reg></choice> <choice><orig>min&#x16B;</orig><reg>minum</reg></choice> · bónði <choice><orig>su&#x1DD3;ar</orig><reg>suarar</reg></choice> ann <choice><orig>mætt&#x16B;</orig><reg>mættum</reg></choice> <choice><orig>u&#x35B;</orig><reg>uer</reg></choice> hafa <choice><orig>u&#x35B;it</orig><reg>uerit</reg></choice> <choice><orig>þi&#x1E45;a</orig><reg>þinna</reg></choice> sk</l>
+         <l><lb n="2" facs="#AM_line_84r_02" xml:id="AM_lb_84r_02"/>ota <choice><orig>hi&#x35B;</orig><reg>hier</reg></choice> · <choice><orig>&#xA765;t</orig><reg>þui at</reg></choice> <choice><orig>hof&#xA765;giar</orig><reg>hofþingiar</reg></choice> <choice><orig>uor&#x35B;</orig><reg>uorir</reg></choice> <choice><orig>u&#x366;</orig><reg>uoru</reg></choice> <choice><orig>uinholl&#x35B;</orig><reg>uinhollir</reg></choice> · <choice><orig>e&#x1E45;</orig><reg>enn</reg></choice> <choice><orig>u&#x35B;</orig><reg>uer</reg></choice> <choice><orig>mz</orig><reg>með</reg></choice> oss j nótt · <choice><orig>ħ</orig><reg>hann</reg></choice> · <choice><orig>q&#x315;</orig><reg>quað</reg></choice> · <choice><orig>&#xA765;</orig><reg>þat</reg></choice> <choice><orig>m&#x305;ðu</orig><reg>munðu</reg></choice> þeckiazt · ecki</l>
+         <l><lb n="3" facs="#AM_line_84r_03" xml:id="AM_lb_84r_03"/><choice><orig>u&#x1DD3;</orig><reg>uar</reg></choice> þar fleira <choice><orig>ma&#x1E45;a</orig><reg>manna</reg></choice> <choice><orig>e&#x1E45;</orig><reg>enn</reg></choice> kona <choice><orig>ħs</orig><reg>hans</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>dott&#x35B;</orig><reg>dottir</reg></choice> · <choice><orig>h&#x16B;</orig><reg>hun</reg></choice> · <choice><orig>h</orig><reg>hiet</reg></choice> · <persName ref="#Drífa"><choice><orig>d&#x315;fa</orig><reg>drifa</reg></choice></persName> · nu <choice><orig>e&#x35B;</orig><reg>eir</reg></choice> at segia <choice><orig>f&#xF1C1;</orig><reg>fra</reg></choice> · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> · at <choice><orig>ħ</orig><reg>hann</reg></choice> <choice><orig>r&#x1DD4;</orig><reg>rær</reg></choice></l>
+         <l><lb n="4" facs="#AM_line_84r_04" xml:id="AM_lb_84r_04"/>a <choice><orig>ei&#x1E45;</orig><reg>einn</reg></choice> leyni uóg <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>k&#x14D;</orig><reg>kom</reg></choice> at <choice><orig>þm&#x305;</orig><reg>þeim</reg></choice> sama bæ <choice><orig>&#xF158;</orig><reg>ok</reg></choice> nam nu <choice><orig>stad&#x1DD3;</orig><reg>stadar</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>hlyd&#x35B;</orig><reg>hlydir</reg></choice> <choice><orig>t&#x30D;</orig><reg>til</reg></choice> tals <choice><orig>m&#x363;</orig><reg>manna</reg></choice> · <choice><orig>gestur&#x1E45;</orig><reg>gesturnn</reg></choice></l>
+         <l><lb n="5" facs="#AM_line_84r_05" xml:id="AM_lb_84r_05"/><choice><orig>t&#x368;</orig><reg>tok</reg></choice> <choice><orig>t&#x30D;</orig><reg>til</reg></choice> orða · <choice><orig>e&#x35B;</orig><reg>eir</reg></choice> sea <choice><orig>dott&#x35B;</orig><reg>dottir</reg></choice> þin bonði · <choice><orig>so&#x35B;</orig><reg>so er</reg></choice> satt · <choice><orig>s</orig><reg>sagði</reg></choice> · <choice><orig>ħ</orig><reg>hann</reg></choice> · eg ætla <choice><orig>mi&#x35B;</orig><reg>mier</reg></choice> at bygia reckiu <choice><orig>mz</orig><reg>með</reg></choice></l>
+         <l><lb n="6" facs="#AM_line_84r_06" xml:id="AM_lb_84r_06"/><choice><orig>h&#x315;</orig><reg>henni</reg></choice> j nótt <choice><orig>&#xF158;</orig><reg>ok</reg></choice> mun yðr <choice><orig>e&#x30D;</orig><reg>eigi</reg></choice> betr <choice><orig>boð&#x1D57;</orig><reg>boðit</reg></choice> · kalli · <choice><orig>q&#x315;</orig><reg>queðzt</reg></choice> <choice><orig>e&#x368;i</orig><reg>ecki</reg></choice> <choice><orig>m&#x368;it</orig><reg>mikit</reg></choice> <choice><orig>&#x16B;</orig><reg>um</reg></choice> <choice><orig>&#xA765;</orig><reg>þat</reg></choice> · <persName ref="#Ketill"><choice><orig>ketl</orig><reg>ketill</reg></choice></persName> · <choice><orig>q&#x315;</orig><reg>queðzt</reg></choice> · giort hafa meiri <choice><orig>st&#x1D52;</orig><reg>stor</reg></choice></l>
+         <l><lb n="7" facs="#AM_line_84r_07" xml:id="AM_lb_84r_07"/><choice><orig>v&#x30D;ki</orig><reg>virki</reg></choice> <choice><orig>e&#x35B;</orig><reg>eir</reg></choice> na reckiu <choice><orig>ħn&#x1DD3;</orig><reg>hennar</reg></choice> · <choice><orig>&#xF158;&#x35B;</orig><reg>ok er</reg></choice> · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> · <choice><orig>heyr&#x35B;</orig><reg>heyrir</reg></choice> <choice><orig>&#xA765;ta</orig><reg>þetta</reg></choice> <choice><orig>d&#xF1C1;p</orig><reg>drap</reg></choice> <choice><orig>ħ</orig><reg>hann</reg></choice> <choice><orig>ho&#x121;</orig><reg>hogg</reg></choice> a <choice><orig>dy&#x1E59;</orig><reg>dyrr</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> gac at <choice><orig>dyrun&#x16B;</orig><reg>dyrunum</reg></choice> þræll</l>
+         <l><lb n="8" facs="#AM_line_84r_08" xml:id="AM_lb_84r_08"/><choice><orig>g&#x368;</orig><reg>geck</reg></choice> <choice><orig>t&#x30D;</orig><reg>til</reg></choice> <choice><orig>hurð&#x1DD3;</orig><reg>hurðar</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> allt ut miog aðr <choice><orig>ħ</orig><reg>hann</reg></choice> sa <choice><orig>ma&#x1E45;i&#x1E45;</orig><reg>manninn</reg></choice> · <choice><orig>ħ</orig><reg>hann</reg></choice> <choice><orig>spy&#x1E59;</orig><reg>spyrr</reg></choice> <choice><orig>hi&#x1E45;</orig><reg>hinn</reg></choice> at nafni · sa · <choice><orig>qzt</orig><reg>queðzt</reg></choice> <persName ref="#Án">an</persName> heita</l>
+         <l><lb n="9" facs="#AM_line_84r_09" xml:id="AM_lb_84r_09"/><choice><orig><ptr type="noteAnchor" target="#AM_note_1"/><add>Þ</add>rælli&#x1E45;</orig><reg>Þrællinn</reg></choice> · <choice><orig>s</orig><reg>sagði</reg></choice> · <choice><orig>hi&#x35B;</orig><reg>hier</reg></choice> <choice><orig>e&#x35B;</orig><reg>eir</reg></choice> <choice><orig>m&#x368;it</orig><reg>mikit</reg></choice> um ana gang · so · <choice><orig>h</orig><reg>hiet</reg></choice> · <choice><orig>&#xF158;</orig><reg>ok</reg></choice> sa er <choice><orig>kom&#x305;</orig><reg>kominn</reg></choice> <choice><orig>e&#x35B;</orig><reg>eir</reg></choice> <choice><orig>hi&#x1E45;i</orig><reg>hinni</reg></choice> · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> · <choice><orig>s</orig><reg>sagði</reg></choice> · so <choice><orig>u&#x35B;a</orig><reg>uera</reg></choice> mega · <choice><orig>&#xF158;</orig><reg>ok</reg></choice></l>
+         <l><lb n="10" facs="#AM_line_84r_10" xml:id="AM_lb_84r_10"/><choice><orig>g&#x1D9C;</orig><reg>geck</reg></choice> <choice><orig>i&#x1E45;</orig><reg>inn</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> settizt gegnt <persName ref="#Ketill">katli</persName> · <choice><orig>bó</orig><reg>bónði</reg></choice> <choice><orig>spy&#x1E59;</orig><reg>spyrr</reg></choice> <choice><orig>ħ</orig><reg>hann</reg></choice> at nafni · <choice><orig>&#xa765;si</orig><reg>þessi</reg></choice> <choice><orig>nef&#x305;ðizt</orig><reg>nenfðizt</reg></choice> · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> · <choice><orig>bó</orig><reg>bónði</reg></choice> · <choice><orig>s</orig><reg>sagði</reg></choice> · <choice><orig>hi&#x35B;</orig><reg>hier</reg></choice> er</l>
+         <l><lb n="11" facs="#AM_line_84r_11" xml:id="AM_lb_84r_11"/>anott miog <choice><orig>e&#x1DE3;</orig><reg>eða</reg></choice> uilltu <choice><orig>mz</orig><reg>með</reg></choice> oss <choice><orig>u&#x35B;a</orig><reg>uera</reg></choice> · <choice><orig>ħ</orig><reg>hann</reg></choice> · <choice><orig>q&#x315;</orig><reg>queðzt</reg></choice> · <choice><orig>&#xA765;</orig><reg>þat</reg></choice> <choice><orig>þi&#x121;ia</orig><reg>þigga</reg></choice> <choice><orig>m&#x305;ðu</orig><reg>munðu</reg></choice> <choice><orig>e&#x1E45;</orig><reg>enn</reg></choice> hafa <choice><orig>u&#x35B;ð</orig><reg>uerð</reg></choice> <choice><orig>e&#x368;</orig><reg>ek</reg></choice> ðuol <choice><orig>n&#x368;ura</orig><reg>nockura</reg></choice></l>
+         <l><lb n="12" facs="#AM_line_84r_12" xml:id="AM_lb_84r_12"/>aðr <choice><orig>&#x113;</orig><reg>en</reg></choice> <choice><orig>e&#x368;</orig><reg>ek</reg></choice> <choice><orig>mot&#x16B;zt</orig><reg>motumzt</reg></choice> <choice><orig>e&#x1DE3;</orig><reg>eða</reg></choice> <choice><orig>hef&#x35B;</orig><reg>hefir</reg></choice> <choice><orig>ħ</orig><reg>hann</reg></choice> <persName ref="#Án">ann</persName> <choice><orig>nef&#x305;s</orig><reg>nefns</reg></choice> <persName ref="#Ketill">ketill</persName> · <choice><orig>ħ</orig><reg>hann</reg></choice> · <choice><orig>s</orig><reg>sagði</reg></choice> · <choice><orig>e&#x368;</orig><reg>ek</reg></choice> <choice><orig>b&#xF1C1;</orig><reg>bra</reg></choice> <choice><orig>þ&#x315;</orig><reg>þui</reg></choice> j <choice><orig>gam&#x1DE0;</orig><reg>gaman</reg></choice> · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> · <choice><orig>m</orig><reg>mælti</reg></choice> · <choice><orig>&#xA765;ta</orig><reg>þetta</reg></choice> <choice><orig>hef&#x35B;</orig><reg>hefir</reg></choice></l>
+         <l><lb n="13" facs="#AM_line_84r_13" xml:id="AM_lb_84r_13"/><choice><orig>u&#x19A;</orig><reg>uel</reg></choice> at móti <choice><orig>bor&#x1D57;</orig><reg>borit</reg></choice> <choice><orig>&#x16B;</orig><reg>um</reg></choice> <choice><orig>f&#x305;ði</orig><reg>funði</reg></choice> <choice><orig>ock&#xF1C1;</orig><reg>ockra</reg></choice> <choice><orig>w&#x366;</orig><reg>worum</reg></choice> <choice><orig>u&#x30D;</orig><reg>uið</reg></choice> j <choice><orig>ei&#x1E45;i</orig><reg>einni</reg></choice> uist <choice><orig>bað&#x35B;</orig><reg>baðir</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>leitad&#x35B;</orig><reg>leitadir</reg></choice> þu <choice><orig>ept&#x35B;</orig><reg>eptir</reg></choice> <choice><orig>nockur&#x16B;</orig><reg>nockurum</reg></choice> <choice><orig>hlut&#x16B;</orig><reg>hlutum</reg></choice></l>
+         <l><lb n="14" facs="#AM_line_84r_14" xml:id="AM_lb_84r_14"/><choice><orig>&#x16B;</orig><reg>um</reg></choice> atgerui mina <choice><orig>&#xF158;</orig><reg>ok</reg></choice> þottist þu <choice><orig>e&#x368;i</orig><reg>ecki</reg></choice> af þui sia helldr hitt at <choice><orig>e&#x368;</orig><reg>ek</reg></choice> uæra skiptingr</l>
+         <l><lb n="15" facs="#AM_line_84r_15" xml:id="AM_lb_84r_15"/><choice><orig>e&#x1E45;</orig><reg>enn</reg></choice> <choice><orig>e&#x368;</orig><reg>ek</reg></choice> em þo atgiorfis <choice><orig>m&#x1DD3;</orig><reg>maðr</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>ka&#x1E45;</orig><reg>kann</reg></choice> <choice><orig>e&#x368;</orig><reg>ek</reg></choice> lækning at <choice><orig>gio&#xF1C1;</orig><reg>giora</reg></choice> <choice><orig>u&#x19A;</orig><reg>uel</reg></choice> at <choice><orig>kue&#x1E45;semi</orig><reg>kuennsemi</reg></choice> <choice><orig>e&#x368;</orig><reg>ek</reg></choice> heyr</l>
+         <l><lb n="16" facs="#AM_line_84r_16" xml:id="AM_lb_84r_16"/>da <choice><orig>að&#x1DE0;</orig><reg>aðan</reg></choice> at þu <choice><orig>leitað&#x35B;</orig><reg>leitaðir</reg></choice> <choice><orig>ept&#x35B;</orig><reg>eptir</reg></choice> <choice><orig>u&#x30D;</orig><reg>uið</reg></choice> · <choice><orig>ð</orig><reg>ðottur</reg></choice> · <choice><orig>bó</orig><reg>bónda</reg></choice> · <choice><orig>&#x16B;</orig><reg>um</reg></choice> hiahuilur · <choice><orig>ħ</orig><reg>hann</reg></choice> · <choice><orig>t&#x368;</orig><reg>tok</reg></choice> nu j lyrg <choice><orig>hm&#x305;</orig><reg>honum</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> liet <choice><orig>ħn</orig><reg>hann</reg></choice> skur</l>
+         <l><lb n="17" facs="#AM_line_84r_17" xml:id="AM_lb_84r_17"/>ka ut <choice><orig>&#xF158;</orig><reg>ok</reg></choice> · <choice><orig>q</orig><reg>quað</reg></choice> · <choice><orig>u</orig><reg>uisu</reg></choice> · Þat munt <choice><orig>fia&#x1E45;</orig><reg>finna</reg></choice> <choice><orig>e&#x35B;</orig><reg>eir</reg></choice> þu flór <choice><orig>mok&#x1DD3;</orig><reg>mokar</reg></choice> · at þu eigi <choice><orig>e&#x35B;t</orig><reg>eirt</reg></choice> <persName ref="#Án">án</persName> <choice><orig>bogsueig&#x35B;</orig><reg>bogsueigir</reg></choice></l>
+         <l><lb n="18" facs="#AM_line_84r_18" xml:id="AM_lb_84r_18"/>þu <choice><orig>e&#x35B;t</orig><reg>eirt</reg></choice> <choice><orig>brauðsueig&#x35B;</orig><reg>brauðsueigir</reg></choice> helldr <choice><orig>e&#x1E45;</orig><reg>enn</reg></choice> <choice><orig>bogsueig&#x35B;</orig><reg>bogsueigir</reg></choice> · <choice><orig>ostasueig&#x35B;</orig><reg>ostasueigir</reg></choice> <choice><orig>e&#x1E45;</orig><reg>enn</reg></choice> <choice><orig>e&#x30D;</orig><reg>eigi</reg></choice> <surplus>b</surplus><choice><orig>almsueig&#x35B;</orig><reg>almsueigir</reg></choice> · <choice><orig>Ha&#x1E45;</orig><reg>Hann</reg></choice> batt</l>
+         <l><lb n="19" facs="#AM_line_84r_19" xml:id="AM_lb_84r_19"/><choice><orig>ħ</orig><reg>hann</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> rak af <choice><orig>ħm</orig><reg>honum</reg></choice> hárit <choice><orig>&#xF158;</orig><reg>ok</reg></choice> bar j tioru <choice><orig>&#xF158;</orig><reg>ok</reg></choice> · <choice><orig>&#x1E3F;</orig><reg>mælti</reg></choice> · at so skyllði <choice><orig>hu&#x35B;</orig><reg>huer</reg></choice> fliuga <choice><orig>sm&#x305;</orig><reg>sem</reg></choice> fiðraðr <choice><orig>væ&#x30D;</orig><reg>væri</reg></choice></l>
+         <l><lb n="20" facs="#AM_line_84r_20" xml:id="AM_lb_84r_20"/><choice><orig><ptr type="noteAnchor" target="#AM_note_1"/><add>H</add></orig><reg>Hann</reg></choice> stack ur <choice><orig>hm&#x305;</orig><reg>honum</reg></choice> <choice><orig>a&#x1E45;at</orig><reg>annat</reg></choice> augat · <choice><orig>sið&#x1DE0;</orig><reg>siðan</reg></choice> gellði <choice><orig>ħ</orig><reg>hann</reg></choice> <choice><orig>ħ</orig><reg>hann</reg></choice> · <choice><orig>ept&#x35B;</orig><reg>eptir</reg></choice> <choice><orig>&#xA765;</orig><reg>þat</reg></choice> leysti <choice><orig>ha&#x1E45;</orig><reg>hann</reg></choice> <choice><orig>ħ</orig><reg>hann</reg></choice> · <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>f&#x1D9C;</orig><reg>feck</reg></choice> <choice><orig>hm&#x305;</orig><reg>honum</reg></choice> · <num type="roman" value="2">ij</num> · stafi</l>
+         <l><lb n="21" facs="#AM_line_84r_21" xml:id="AM_lb_84r_21"/><choice><orig>e&#x1E45;</orig><reg>enn</reg></choice> <choice><orig>e&#x368;</orig><reg>ek</reg></choice> mun <choice><orig>t&#x368;a</orig><reg>taka</reg></choice> <choice><orig>u&#x30D;</orig><reg>uið</reg></choice> skeyti minu · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> · <choice><orig>&#x1E3F;</orig><reg>mælti</reg></choice> · <choice><orig>&#xA765;</orig><reg>þat</reg></choice> kalla <choice><orig>m&#x305;</orig><reg>menn</reg></choice> <choice><orig>&#xA741;g&#x305;</orig><reg>konungs</reg></choice> ger semi ef <choice><orig>n&#x368;ut</orig><reg>nockut</reg></choice> <choice><orig>e&#x35B;</orig><reg>eir</reg></choice> <choice><orig>a&#x1E45;ars</orig><reg>annars</reg></choice> <choice><orig>afb&#xF1C1;</orig><reg>afbra</reg></choice></l>
+         <l><lb n="22" facs="#AM_line_84r_22" xml:id="AM_lb_84r_22"/>gð · <choice><orig>&#x113;</orig><reg>en</reg></choice> <choice><orig>þi&#x35B;</orig><reg>þier</reg></choice> <choice><orig>e&#x35B;</orig><reg>eir</reg></choice> nu <choice><orig>brugð&#x1D57;</orig><reg>brugðit</reg></choice> <choice><orig>n&#x368;ut</orig><reg>nockut</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>þ&#x315;</orig><reg>þui</reg></choice> <choice><orig>sendi&#x1D9C;</orig><reg>sendi ek</reg></choice> þik nu so <choice><orig>bui&#x1E45;</orig><reg>buinn</reg></choice> · <persName ref="#Ingjaldr"><choice><orig>I&#x144;</orig><reg>Ingialldi</reg></choice></persName> · <choice><orig>k&#xB4;</orig><reg>konungi</reg></choice> · <choice><orig>&#xF158;</orig><reg>ok</reg></choice> gelld <choice><orig>e&#x368;</orig><reg>ek</reg></choice> <choice><orig>hm&#x305;</orig><reg>honum</reg></choice> þig <choice><orig>fyr&#x35B;</orig><reg>fyrir</reg></choice></l>
+         <l><lb n="23" facs="#AM_line_84r_23" xml:id="AM_lb_84r_23"/><choice><orig>a&#x1E45;a&#x1E45;</orig><reg>annann</reg></choice> <choice><orig>brod&#x1DE3;</orig><reg>brodur</reg></choice> <choice><orig>si&#x1E45;</orig><reg>sinn</reg></choice> · <choice><orig>huen&#x35B;</orig><reg>huener</reg></choice> <choice><orig>sm&#x305;</orig><reg>sem</reg></choice> <choice><orig>f&#x30D;</orig><reg>fyrir</reg></choice> <choice><orig>a&#x1E45;a&#x1E45;</orig><reg>annann</reg></choice> <choice><orig>e&#x35B;</orig><reg>eir</reg></choice> <choice><orig>gollð&#x1D9C;</orig><reg>gollðit</reg></choice> · <persName ref="#Ketill">ketill</persName> <choice><orig>leit&#x1DD3; </orig><reg>leitar</reg></choice> <choice><orig>t&#x30D;</orig><reg>til</reg></choice> <choice><orig>skipa&#x1E45;a</orig><reg>skipanna</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> · <choice><orig>s</orig><reg>sagði</reg></choice> · <choice><orig>k</orig><reg>konungi</reg></choice> · <choice><orig>&#xF158;</orig><reg>ok</reg></choice> báru</l>
+         <l><lb n="24" facs="#AM_line_84r_24" xml:id="AM_lb_84r_24"/><choice><orig>hm&#x305;</orig><reg>honum</reg></choice> uitni <choice><orig>staf&#x35B;</orig><reg>stafir</reg></choice> <choice><orig>ħs</orig><reg>hans</reg></choice> at <choice><orig>ħ</orig><reg>hann</reg></choice> <choice><orig>u&#x1DD3;</orig><reg>uar</reg></choice> stirðr <choice><orig>orði&#x1E45;</orig><reg>orðinn</reg></choice> · <choice><orig>e&#x1E45;</orig><reg>enn</reg></choice> sion <choice><orig>u&#x1DD3;</orig><reg>uar</reg></choice> saugu <choice><orig>rik&#x1DD3;</orig><reg>rikar</reg></choice> <choice><orig>&#x16B;</orig><reg>um</reg></choice> augu <choice><orig>ħs</orig><reg>hans</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> eistu</l>
+         <l><lb n="25" facs="#AM_line_84r_25" xml:id="AM_lb_84r_25"/>at a <choice><orig>bt&#x36D;</orig><reg>burt</reg></choice> uar <choice><orig>huortue&#x121;ia</orig><reg>huortueggia</reg></choice> · <choice><orig>afħdr</orig><reg>afhendr</reg></choice> <choice><orig>e&#x35B;tu</orig><reg>eirtu</reg></choice> <choice><orig>mi&#x35B;</orig><reg>mier</reg></choice> · <choice><orig>s</orig><reg>sagði</reg></choice> · <choice><orig>k</orig><reg>konungr</reg></choice> · <choice><orig>&#xF158;</orig><reg>ok</reg></choice> rak <choice><orig>ħ</orig><reg>hann</reg></choice> a <choice><orig>bt&#x1DE3;</orig><reg>burt</reg></choice> <choice><orig>f&#xF1C1;</orig><reg>fra</reg></choice> sier ·</l>
+         <l><lb n="26" facs="#AM_line_84r_26" xml:id="AM_lb_84r_26"/>&#x2006;<choice><orig>U</orig><reg><ptr type="noteAnchor" target="#AM_note_2"/><supplied reason="omitted" resp="#GF" source="#A"><c cert="high" type="letter">N</c></supplied>U</reg></choice> <choice><orig>e&#x35B;</orig><reg>eir</reg></choice> at <choice><orig>seg&#xF1C1;</orig><reg>segia</reg></choice> <choice><orig>f&#xF1C1;</orig><reg>fra</reg></choice> · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> · at <choice><orig>ħ</orig><reg>hann</reg></choice> · <choice><orig>&#x1E3F;</orig><reg>mælti</reg></choice> · <choice><orig>u&#x30D;</orig><reg>uið</reg></choice> · <choice><orig>bó</orig><reg>bónda</reg></choice> · <choice><orig>þi&#x35B;</orig><reg>þier</reg></choice> <choice><orig>t&#x368;ut</orig><reg>tokut</reg></choice> <choice><orig>u&#x19A;</orig><reg>uel</reg></choice> <choice><orig>u&#x30D;</orig><reg>uið</reg></choice> <choice><orig>mi&#x35B;</orig><reg>mier</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>skylld&#x35B;</orig><reg>skylldir</reg></choice> þu <choice><orig>e&#x30D;</orig><reg>eigi</reg></choice> illt af <choice><orig>mi&#x35B;</orig><reg>mier</reg></choice> hliota</l>
+         <l><lb n="27" facs="#AM_line_84r_27" xml:id="AM_lb_84r_27"/>&#x2006;<choice><orig>s&#xA741;u</orig><reg>skulu</reg></choice> <choice><orig>u&#x30D;</orig><reg>uið</reg></choice> eyða <choice><orig>bæi&#x1E45;</orig><reg>bæinn</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>f&#x1DD3;a</orig><reg>fara</reg></choice> j skóg · <choice><orig>&#xA765;t</orig><reg>þui at</reg></choice> · <choice><orig>k</orig><reg>konungs</reg></choice> · <choice><orig>m&#x305;</orig><reg>menn</reg></choice> <choice><orig>m&#x305;u</orig><reg>munu</reg></choice> <choice><orig>bt&#xF1C1;t</orig><reg>bratt</reg></choice> koma <choice><orig>hi&#x35B;</orig><reg>hier</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> so giorðu <choice><orig>&#xA765;r</orig><reg>þeir</reg></choice> · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> · uar</l>
+         <l><lb n="28" facs="#AM_line_84r_28" xml:id="AM_lb_84r_28"/><choice><orig>&#xA765;su</orig><reg>þessu</reg></choice> <choice><orig>n&#x1DD4;gætr</orig><reg>nærgætr</reg></choice> <choice><orig>þ&#x315;</orig><reg>þui</reg></choice> · <choice><orig>k</orig><reg>konungr</reg></choice> · senði <choice><orig>m&#x305;</orig><reg>menn</reg></choice> <choice><orig>&#xA765;gar</orig><reg>þegar</reg></choice> um nottina <choice><orig>&#xF158;</orig><reg>ok</reg></choice> brenðu <choice><orig>&#xA765;r</orig><reg>þeir</reg></choice> <choice><orig>&#x16B;</orig><reg>upp</reg></choice> <choice><orig>bæi&#x1E45;</orig><reg>bæinn</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>f&#x366;</orig><reg>foru</reg></choice> aptr <choice><orig>sið&#x1DE0;</orig><reg>siðan</reg></choice> · <choice><orig>k</orig><reg>konungr</reg></choice> · <choice><orig>&#x1E3F;</orig><reg>mælti</reg></choice> ·</l>
+         <l><lb n="29" facs="#AM_line_84r_29" xml:id="AM_lb_84r_29"/><choice><orig>u&#x30D;</orig><reg>uið</reg></choice> sina <choice><orig>m&#x305;</orig><reg>menn</reg></choice> · ef · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> · <choice><orig>hef&#x35B;</orig><reg>hefir</reg></choice> <choice><orig>u&#x1E45;ðan</orig><reg>unnðan</reg></choice> komest þa <choice><orig>le&#x121;</orig><reg>legg</reg></choice> <choice><orig>e&#x368;</orig><reg>ek</reg></choice> · <num type="roman" value="3">iij</num> · <choice><orig>m&#x35B;kur</orig><reg>merkur</reg></choice> silfrs <choice><orig>t&#x30D;</orig><reg>til</reg></choice> hofuds <choice><orig>hm&#x305;</orig><reg>honum</reg></choice> · <choice><orig>&#xF158;</orig><reg>ok</reg></choice></l>
+         <l><lb n="30" facs="#AM_line_84r_30" xml:id="AM_lb_84r_30"/><choice><orig>gior&#x1D9C;</orig><reg>gior ek</reg></choice> <choice><orig>ħ</orig><reg>hann</reg></choice> <choice><orig>wtlæg&#x1DE0;</orig><reg>wtlægan</reg></choice> <choice><orig>&#x16B;</orig><reg>um</reg></choice> <choice><orig>alla&#x1E45;</orig><reg>allann</reg></choice> norig · <choice><orig>&#xA765;tta</orig><reg>þetta</reg></choice> spyrst nu uiða · <choice><orig>&#xA741;g&#x305;r</orig><reg>konungr</reg></choice> kom heim j sitt <choice><orig>r&#x30D;</orig><reg>riki</reg></choice> · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> ·</l>
+         <l><lb n="31" facs="#AM_line_84r_31" xml:id="AM_lb_84r_31"/><choice><orig>u&#x1DD3;</orig><reg>uar</reg></choice> <choice><orig>mz</orig><reg>með</reg></choice> kalli <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>hús&#x1DD3;</orig><reg>húsar</reg></choice> <choice><orig>u&#x1E57;</orig><reg>upp</reg></choice> bæ <choice><orig>ħs</orig><reg>hans</reg></choice> um <choice><orig>sum&#x1DD3;it</orig><reg>sumarit</reg></choice> · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> · <choice><orig>u&#x1DD3;</orig><reg>uar</reg></choice> so <choice><orig>bui&#x1E45;</orig><reg>buinn</reg></choice> <choice><orig>hu&#x35B;sðagliga</orig><reg>huersðagliga</reg></choice> at <choice><orig>ħ</orig><reg>hann</reg></choice> uar j huitu</l>
+         <l><lb n="32" facs="#AM_line_84r_32" xml:id="AM_lb_84r_32"/>pillzi · <choice><orig>&#xA765;</orig><reg>þat</reg></choice> <choice><orig>u&#x1DD3;</orig><reg>uar</reg></choice> so sýtt at <choice><orig>&#xA765;</orig><reg>þat</reg></choice> nam hæl · þa <choice><orig>u&#x1DD3;</orig><reg>uar</reg></choice> <choice><orig>ħ</orig><reg>hann</reg></choice> j gram pillzungi · <choice><orig>ħ</orig><reg>hann</reg></choice> <choice><orig>t&#x1D9C;</orig><reg>tok</reg></choice> <choice><orig>of&#x1DE0;</orig><reg>ofan</reg></choice> a <choice><orig>midi&#x1DE0;</orig><reg>midian</reg></choice> <choice><orig>kalf&#x1DE0;</orig><reg>kalfan</reg></choice></l>
+         <l><lb n="33" facs="#AM_line_84r_33" xml:id="AM_lb_84r_33"/><ptr type="noteAnchor" target="#AM_note_1"/><add>Þ</add>a uar <choice><orig>ħ</orig><reg>hann</reg></choice> j <choice><orig>rauð&#x16B;</orig><reg>rauðum</reg></choice> kyrtli · <choice><orig>ħ</orig><reg>hann</reg></choice> tok <choice><orig>of&#x1DE0;</orig><reg>ofan</reg></choice> a kne · yzt <choice><orig>u&#x35B;</orig><reg>uar</reg></choice> <choice><orig>ħ</orig><reg>hann</reg></choice> j <choice><orig>uonð&#x16B;</orig><reg>uonðum</reg></choice> <choice><orig>uoruuoð&#x1DD3;stacki</orig><reg>uoruuoðarstacki</reg></choice> · <choice><orig>ħn</orig><reg>hann</reg></choice></l>
+         <l><lb n="34" facs="#AM_line_84r_34" xml:id="AM_lb_84r_34"/><choice><orig>t&#x368;</orig><reg>tok</reg></choice> <choice><orig>of&#x1DE0;</orig><reg>ofan</reg></choice> a mitt lær · <choice><orig>ħ</orig><reg>hann</reg></choice> <choice><orig>haf&#x30D;</orig><reg>hafði</reg></choice> hatt a <choice><orig>hof&#x30D;</orig><reg>hofði</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>uid&#x1DD3;auxi</orig><reg>uidarauxi</reg></choice> j henði · <choice><orig>m&#x1DD3;i&#x1E45;</orig><reg>maðrinn</reg></choice> <choice><orig>u&#x1DD3;</orig><reg>uar</reg></choice> <choice><orig>f&#x1DE3;ðu</orig><reg>furðu</reg></choice> stor <choice><orig>&#xF158;</orig><reg>ok</reg></choice> kall</l>
+         <l><lb n="35" facs="#AM_line_84r_35" xml:id="AM_lb_84r_35"/><choice><orig>m&#x1DE0;ligr</orig><reg>mannligr</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>e&#x368;i</orig><reg>ecki</reg></choice> <choice><orig>dauæ&#x1E45;</orig><reg>dauænn</reg></choice> · <choice><orig>&#xA765;</orig><reg>þat</reg></choice> <choice><orig>u&#x1DD3;</orig><reg>uar</reg></choice> <choice><orig>ei&#x1E45;</orig><reg>einn</reg></choice> · <choice><orig>ð</orig><reg>ðag</reg></choice> · at <persName ref="#Án"><choice><orig>a&#x1E45;</orig><reg>ann</reg></choice></persName> mætti uti <persName ref="#Drífa"><choice><orig>ð&#x315;fu</orig><reg>ðrifu</reg></choice></persName> kalls · <choice><orig>ð</orig><reg>ðottur</reg></choice> · <num type="roman" value="3">iij</num> · <choice><orig>kon&#x1DE3;</orig><reg>konur</reg></choice> <choice><orig><seg type="ligature">gg&#x305;</seg></orig><reg>gengu</reg></choice> <choice><orig>mz</orig><reg>með</reg></choice></l>
+         <l><lb n="36" facs="#AM_line_84r_36" xml:id="AM_lb_84r_36"/><choice><orig>ħi</orig><reg>henni</reg></choice> · <choice><orig>h&#x16B;</orig><reg>hun</reg></choice> <choice><orig>u&#x1DD3;</orig><reg>uar</reg></choice> <choice><orig>kue&#x1E45;a</orig><reg>kuenna</reg></choice> uænst <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>u&#x19A;</orig><reg>uel</reg></choice> buin · <choice><orig>h&#x16B;</orig><reg>hun</reg></choice> <choice><orig>u&#x1DD3;</orig><reg>uar</reg></choice> j <choice><orig>rauð&#x16B;</orig><reg>rauðum</reg></choice> kyrtli <choice><orig>e&#x35B;malaung&#x16B;</orig><reg>eirmalaungum</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> ecki niðr</l>
+         <l><lb n="37" facs="#AM_line_84r_37" xml:id="AM_lb_84r_37"/><choice><orig>uid&#x16B;</orig><reg>uidum</reg></choice> · <choice><orig>syð&#x16B;</orig><reg>syðum</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>miðþraung&#x16B;</orig><reg>miðþraungum</reg></choice> · <choice><orig>h&#x16B;</orig><reg>hun</reg></choice> <choice><orig>haf&#x30D;</orig><reg>hafði</reg></choice> hlað <choice><orig>&#x16B;</orig><reg>um</reg></choice> <choice><orig>e&#x1E45;i</orig><reg>enni</reg></choice> <choice><orig>&#xF158;</orig><reg>ok</reg></choice> hærð <choice><orig>kue&#x1E45;a</orig><reg>kuenna</reg></choice> beszt · þær</l>
+         <l><lb n="38" facs="#AM_line_84r_38" xml:id="AM_lb_84r_38"/>hlógu at <choice><orig>hm&#x305;</orig><reg>honum</reg></choice> miog <choice><orig>&#xF158;</orig><reg>ok</reg></choice> ðaruðu <choice><orig>b</orig><reg resp="#GF">k</reg></choice>læðabunat <choice><orig>ħs</orig><reg>hans</reg></choice> · <persName ref="#Drífa"><choice><orig>ð&#x315;fa</orig><reg>ðrifa</reg></choice></persName> · <choice><orig>&#x1E3F;</orig><reg>mælti</reg></choice> · þa · <choice><orig>hu&#xF1C1;an</orig><reg>huaðan</reg></choice> gecktu at</l>
+         <l><lb n="39" facs="#AM_line_84r_39" xml:id="AM_lb_84r_39"/>nu <choice><orig>f&#x35B;falldr</orig><reg>ferfalldr</reg></choice> · <choice><orig>f&#xF1C1;</orig><reg>fra</reg></choice> <choice><orig>smið&#x16B;</orig><reg>smiðum</reg></choice> · <choice><orig>s</orig><reg>sagði</reg></choice> · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> · <choice><orig>þ&#x315;</orig><reg>þui</reg></choice> kom · <choice><orig>bó</orig><reg>bóndi</reg></choice> · at <choice><orig>&#xF158;</orig><reg>ok</reg></choice> bað <choice><orig>þ&#x1DD4;</orig><reg>þær</reg></choice> <choice><orig>e&#x368;i</orig><reg>ecki</reg></choice> skulka <choice><orig>hn&#x305;</orig><reg>hann</reg></choice> · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> · <choice><orig>q&#x315;</orig><reg>quað</reg></choice> ·  þa · <choice><orig>v</orig><reg>visu</reg></choice> ·</l>
+         <l><lb n="40" facs="#AM_line_84r_40" xml:id="AM_lb_84r_40"/><ptr type="noteAnchor" target="#AM_note_1"/><add>M</add>eyiar spurðu <choice><orig>e&#x35B;</orig><reg>eir</reg></choice> <choice><orig>m&#x368;</orig><reg>mik</reg></choice> funðu · huit <choice><orig>hadd<surplus>&#x1DD3;</surplus>ad&#x1DD3;</orig><reg>haddadar</reg></choice> <choice><orig>huað&#x1DE0;</orig><reg>huaðan</reg></choice> komti <choice><orig>f&#x35B;fallðr</orig><reg>ferfallðr</reg></choice> · <choice><orig>e&#x1E45;</orig><reg>enn</reg></choice> ek suar</l>
+         <l><lb n="41" facs="#AM_line_84r_41" xml:id="AM_lb_84r_41"/>aða <choice><orig>silkigu&#x1E45;i</orig><reg>silkigunni</reg></choice> · helldr <choice><orig>hæði&#x1E45;i</orig><reg>hæðinni</reg></choice> · <choice><orig>huad&#x1DE0;</orig><reg>huadan</reg></choice> <choice><orig>e&#x35B;</orig><reg>eir</reg></choice> logn úti · <choice><orig>e&#x368;i</orig><reg>ecki</reg></choice> þiki <choice><orig>mi&#x35B;</orig><reg>mier</reg></choice> · <choice><orig>s</orig><reg>sagði</reg></choice> · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> · kyrtill</l>
+         <l><lb n="42" facs="#AM_line_84r_42" xml:id="AM_lb_84r_42"/><choice><orig>þi&#x1E45;</orig><reg>þinn</reg></choice> <choice><orig>f&#x1DD3;a</orig><reg>fara</reg></choice> betr <choice><orig>e&#x1E45;</orig><reg>enn</reg></choice> stackr <choice><orig><choice><orig>þi&#x1E45;</orig><reg>þinn</reg></choice></orig><reg resp="#GF"><choice><orig>mi&#x1E45;</orig><reg>minn</reg></choice></reg></choice> · <choice><orig>&#xA765;t</orig><reg>þui at</reg></choice> <choice><orig>hn&#x305;</orig><reg>hann</reg></choice> lygm <choice><orig>ned&#x1DE0;</orig><reg>nedan</reg></choice> at bakstacki <choice><orig>þin&#x16B;</orig><reg>þinum</reg></choice> · siðan ski</l>
+         <l><lb n="43" facs="#AM_line_84r_43" xml:id="AM_lb_84r_43"/>lðu þau at <choice><orig>si&#x1E45;i</orig><reg>sinni</reg></choice> · <choice><orig>En&#x35B;</orig><reg>En er</reg></choice> <choice><orig>u&#x1E57;</orig><reg>upp</reg></choice> uar husadr <choice><orig>bæri&#x1E45;</orig><reg>bærinn</reg></choice> talar · <choice><orig>bó</orig><reg>bóndi</reg></choice> · <choice><orig>t&#x30D;</orig><reg>til</reg></choice> · <persName ref="#Án"><choice><orig>A</orig><reg>Ans</reg></choice></persName> · <choice><orig>&#x16B;</orig><reg>um</reg></choice> <choice><orig>haust&#x1D57;</orig><reg>haustit</reg></choice> at <choice><orig>hm&#x305;</orig><reg>honum</reg></choice></l>
+         <l><lb n="44" facs="#AM_line_84r_44" xml:id="AM_lb_84r_44"/><choice><orig>uæ&#x30D;</orig><reg>uæri</reg></choice> heimillt <choice><orig>þ&#x1DD3;</orig><reg>þar</reg></choice> at <choice><orig>u&#x35B;a</orig><reg>uera</reg></choice> <choice><orig>&#x16B;</orig><reg>um</reg></choice> <choice><orig>uetri&#x1E45;</orig><reg>uetrinn</reg></choice> · <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>hef&#x35B;</orig><reg>hefir</reg></choice> þu <choice><orig>u&#x19A;</orig><reg>uel</reg></choice> <choice><orig>t&#x30D;</orig><reg>til</reg></choice> <choice><orig>&#xA765;s</orig><reg>þess</reg></choice> <choice><orig>unn&#x36D;</orig><reg>unnit</reg></choice> · <persName ref="#Án"><choice><orig>A</orig><reg>Ann</reg></choice></persName> · <choice><orig>q&#x315;</orig><reg>quað</reg></choice> · <choice><orig>&#xA765;</orig><reg>þat</reg></choice> <choice><orig>þi&#x121;ia</orig><reg>þiggia</reg></choice> <choice><orig>m&#x305;ðu</orig><reg>munðu</reg></choice></l>
+         <l><lb n="45" facs="#AM_line_84r_45" xml:id="AM_lb_84r_45"/><choice><orig><ptr type="noteAnchor" target="#AM_note_1"/><add>h</add>on&#x16B;</orig><reg>honum</reg></choice> leizt <choice><orig>u&#x19A;</orig><reg>uel</reg></choice> a kallz · <choice><orig>ð</orig><reg>ðottur</reg></choice> · þo at <choice><orig>h&#x16B;</orig><reg>hun</reg></choice> <choice><orig>hef&#x30D;</orig><reg>hefði</reg></choice> kallzat <choice><orig>ħs</orig><reg>hans</reg></choice> klæðasniðit · <choice><orig>&#xF158;</orig><reg>ok</reg></choice> <choice><orig>u&#x1DD3;</orig><reg>uar</reg></choice> <choice><orig>ħn</orig><reg>hann</reg></choice></l>
+      </body>
+      <back>
+         <note n="1" xml:id="AM_note_1">The first letter is bigger and placed on the left margin</note>
+         <note n="2" xml:id="AM_note_2">Supplied from witness A</note>
+      </back>
+   </text>
+</TEI>
