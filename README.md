@@ -1,4 +1,4 @@
-# Digital Edition Prototype: *Áns saga* (AM 343 a 4to)
+# Digital Edition Prototype: *Áns saga bogsveigis* (AM 343 a 4to)
 
 This repository contains a digital scholarly edition prototype developed as part of my MA thesis in Germanic Philology (2018). It serves as a technical proof of concept to demonstrate the pipeline from XML-TEI text encoding to web visualization using the EVT 2 framework.
 
